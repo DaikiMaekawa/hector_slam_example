@@ -5,7 +5,7 @@
   <param name="map_frame" value="map"/> 
   <param name="base_frame" value="base_frame"/> 
   <param name="odom_frame" value="base_frame"/>
-  <include file="$(find openni_launch)/launch/openni.launch"/>
+  <include file="$(find openni2_launch)/launch/openni2.launch"/>
   
   <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_2_laserscan">
     <remap from="image" to="/camera/depth/image_raw"/>
