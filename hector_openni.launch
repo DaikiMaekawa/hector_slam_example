@@ -19,7 +19,7 @@
 
   <node pkg="rviz" type="rviz" name="rviz" args="-d rviz_cfg.rviz"/>
 
-  <include file="mapping_openni.launch"/> 
+  <include file="default_mapping.launch"/> 
   <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch"/>
 
 </launch>
