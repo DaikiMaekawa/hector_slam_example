@@ -1,16 +1,23 @@
-hector-slam-example
-===================
-
 ## Install the dependency packages
 
 
-    sudo aptitude install ros-hydro-hector-slam-launch
-    sudo aptitude install ros-hydro-depthimage-to-laserscan
+    sudo aptitude install ros-<distro>-hector-slam-launch
+    sudo aptitude install ros-<distro>-depthimage-to-laserscan
 
 ### openni
 
-    sudo aptitude install ros-hydro-openni2-launch
+    sudo aptitude install ros-<distro>-openni2-launch
     
 ### UTM-30LX
 
-    sudo aptitude install ros-hydro-hokuyo-node
+    sudo aptitude install ros-<distro>-hokuyo-node
+
+## Usage
+
+### openni
+
+    roslaunch hector_openni.launch
+    
+### UTM-30LX
+
+    roslaunch hector_hokuyo.launch
