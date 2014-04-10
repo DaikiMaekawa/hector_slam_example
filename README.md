@@ -21,3 +21,9 @@
 ### UTM-30LX
 
     roslaunch hector_hokuyo.launch
+
+## License
+
+Copyright (c) 2013, Daiki Maekawa. (MIT License)
+
+See LICENSE for more info.
