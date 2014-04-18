@@ -26,6 +26,6 @@
 
 ## License
 
-Copyright (c) 2013, Daiki Maekawa. (MIT License)
+Copyright (c) 2014, Daiki Maekawa. (MIT License)
 
 See LICENSE for more info.
