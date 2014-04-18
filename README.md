@@ -22,6 +22,8 @@
 
     roslaunch hector_hokuyo.launch
 
+[![rviz](http://img.youtube.com/vi/xo64T0jgKKQ/0.jpg)](https://www.youtube.com/watch?v=xo64T0jgKKQ)
+
 ## License
 
 Copyright (c) 2013, Daiki Maekawa. (MIT License)
