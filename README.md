@@ -24,7 +24,7 @@ $ sudo aptitude install ros-<distro>-hokuyo-node
 ```sh
 $ roslaunch hector_openni.launch
 ```    
-/
+
 #### UTM-30LX
 
 ```sh
