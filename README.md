@@ -14,7 +14,7 @@ $ sudo aptitude install ros-<distro>-openni2-launch
 #### UTM-30LX
 
 ```sh
-sudo aptitude install ros-<distro>-hokuyo-node
+$ sudo aptitude install ros-<distro>-hokuyo-node
 ```
 
 ## Usage
