@@ -5,8 +5,10 @@
   <param name="map_frame" value="map"/> 
   <param name="base_frame" value="base_frame"/> 
   <param name="odom_frame" value="odom"/>
-  <param name="/use_sim_time" value="true"/>
   
+  <node pkg="urg_node" type="urg_node" name="urg_node">
+    <param name="ip_address" value="192.168.0.10"/>
+  </node>
   <node pkg="tf" type="static_transform_publisher" name="map_2_odom" args="0 0 0 0 0 0 /map /odom 100"/>
   <node pkg="tf" type="static_transform_publisher" name="odom_2_base_footprint" args="0 0 0 0 0 0 /odom /base_footprint 100"/>
   <node pkg="tf" type="static_transform_publisher" name="base_footprint_2_base_link" args="0 0 0 0 0 0 /base_footprint /base_link 100"/> 
@@ -15,9 +17,9 @@
   <node pkg="tf" type="static_transform_publisher" name="base_frame_2_laser_link" args="0 0 0 0 0 0 /base_frame /laser 100"/> 
   <node pkg="tf" type="static_transform_publisher" name="base_2_nav_link" args="0 0 0 0 0 0 /base_frame /nav 100"/>
 
-  <node pkg="rviz" type="rviz" name="rviz" args="-d rviz_cfg.rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hector_slam_example)/launch/rviz_cfg.rviz"/>
 
-  <include file="default_mapping.launch"/> 
+  <include file="$(find hector_slam_example)/launch/default_mapping.launch"/> 
   <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch"/>
 
 </launch>
