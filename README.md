@@ -1,7 +1,7 @@
 ## Install the dependency packages
 
 ```sh
-$ rosdep hector_slam_example
+$ rosdep install hector_slam_example
 ```
 
 ## Usage
