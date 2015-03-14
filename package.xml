@@ -5,7 +5,7 @@
   <description>Sample nodes for hector_slam with openni and URG.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
-  <maintainer email="method_aspect_card@yahoo.co.jp">Daiki Maekawa</maintainer>
+  <maintainer email="d.maekawa@rapyuta-robotics.com">Daiki Maekawa</maintainer>
   <maintainer email="yoneken@ieee.org">Kenta Yonekura</maintainer>
 
 
